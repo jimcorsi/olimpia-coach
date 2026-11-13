@@ -28,6 +28,8 @@ body { padding-bottom: calc(64px + env(safe-area-inset-bottom)); }
 .appbrand img { width: 40px; height: 40px; object-fit: contain; background: #fff; border-radius: 8px; padding: 2px; }
 .appbrand span { font: 700 20px/1 var(--display, system-ui, sans-serif); letter-spacing: .03em;
   text-transform: uppercase; color: #00038e; }
+.appbrand .appupd { margin-left: auto; text-align: right; font: 600 12px/1.25 var(--body, system-ui, sans-serif);
+  font-style: normal; color: var(--muted, #5d6678); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .appbar a.on,
   :root:not([data-theme="light"]) .appbrand span { color: #fe4300; }
   :root:not([data-theme="light"]) .appbrand { background: var(--surface, #1a202b); } }
@@ -107,7 +109,7 @@ a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
 </style>
 </head>
 <body>
-<header class="appbrand"><img src="icons/logo.png" alt="Olimpia Sile" width="40" height="40"><span>Olimpia Sile</span></header>
+<header class="appbrand"><img src="icons/logo.png" alt="Olimpia Sile" width="40" height="40"><span>Olimpia Sile</span><em class="appupd">Aggiornato 13/11 07:56</em></header>
 
 <style>
 :root { --ser-me:#d9631e; --ser-op:#2f6db5; }
@@ -186,8 +188,8 @@ section { display:grid; gap:10px; }
 </style>
 <div class="wrap">
 <header>
-  <div class="eyebrow"><a class="home" href="index.html">‹ Olimpia Sile · tutte le squadre</a> · stagione 2026/27 · referti di gara</div>
-  <h1>Giocatori<span class="upd" style="display:block;margin-top:4px;font-family:inherit;font-size:.9rem;font-weight:600;text-transform:none;letter-spacing:0;color:var(--muted)">Aggiornato 13/11 07:56</span></h1>
+  <div class="eyebrow">stagione 2026/27 · referti di gara</div>
+  <h1>Giocatori</h1>
   <div class="muted">Dai referti di gara · 25 gare · <a href="index.html">calendario e classifiche</a> · <a href="index.html#arbitri">statistiche arbitri</a></div>
 </header>
 
