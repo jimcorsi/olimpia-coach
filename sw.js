@@ -1,5 +1,5 @@
-/* service worker Olimpia Sile Coach - versione 20261114065732 */
-const CACHE = 'olimpia-20261114065732';
+/* service worker Olimpia Sile Coach - versione 20261115065842 */
+const CACHE = 'olimpia-20261115065842';
 const CORE = ['index.html', 'giocatori.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png', 'icons/logo.png'];
 
 self.addEventListener('install', (e) => {
